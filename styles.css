@@ -1,3 +1,37 @@
-.thead {
-    weight: bold;
+.body {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fs-1 {
+    font-family: wreath, serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .1rem;
+    color: #1f271b;
+}
+
+.accordion-item {
+    border: 2px solid rgba(0,0,0,.125) !important;
+}
+
+.accordion-button { 
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: .1rem;
+    font-size: 2.5vh !important;
+    color: #bc4749 !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #1f271b !important;
+    background-color: #fccccd !important;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+@media (min: 375px) {
+
 }
